@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="E:\HTMLHints Frontend workshop\Whether app\logo\favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="E:\HTMLHints Frontend workshop\Whether app\logo\favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="E:\HTMLHints Frontend workshop\Whether app\logo\favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="E:\HTMLHints Frontend workshop\Whether app\logo\favicon_io/site.webmanifest">
+    <link rel="stylesheet" href="weatherapp.css">
+</head>
+<body>
+    <form id="search-form">
+        <input type="search"
+        placeholder="Enter City Name"
+        id="search-input"
+        required
+        autocomplete="off">
+        <br>
+        <button id="search-button">Search</button>
+    </form>
+    <main id="app-container">
+        <div id="location">
+            <p>------</p>
+        </div>
+        <div id="temp">
+            <img id="temp-icon" src="./Icons/sun.svg" alt="">
+            <p><span id="temp-value">--------</span> <span id="temp-unit">&#176c</span></p>
+        </div>
+
+        <div id="climate">
+            <p>------</p>
+        </div>
+    </main>
+
+
+    <script src="weatherapp.js"></script>
+</body>
+</html>
