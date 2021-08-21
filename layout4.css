@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0px;
+    padding: 10px;
+    text-align: center;
+}
+header, footer{
+    padding: 20px;
+    background: pink;
+    color: black;
+    border-radius: 20px;
+}
+section{
+    height: 400px;
+    background:orange;
+}
+.main *{
+    border-radius: 10px;
+}
+.main{
+    margin: 10px 0px;
+}
+.main::after{
+    content: "";
+    clear: both;
+    display: table;
+}
